@@ -11,7 +11,7 @@ maintainers = ["frju365"]
 
 [upstream]
 license = "MIT"
-code = "https://github.com/pips-/shuri"
+code = "https://github.com/YJB-Gay/shuri"
 
 [integration]
 yunohost = ">= 11.2"
@@ -37,8 +37,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/pips-/shuri/archive/3204be01ad0ffefbfee7507c4a05694a64c761fb.tar.gz"
-        sha256 = "d9f8b6ef06cf08b593850e180be4f8efba5f5e3495045930f21e7927b4beb95c"
+        url = "https://github.com/YJB-Gay/shuri/archive/refs/heads/master.tar.gz"
+        sha256 = "df313782263d5c06757c39f9f19d97cf97aecc4f44f09c4fcbd796995203a612"
         autoupdate.strategy = "latest_github_commit"
 
     [resources.system_user]
